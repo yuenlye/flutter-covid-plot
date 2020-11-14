@@ -1,0 +1,15 @@
+name: flutter_covid_plot
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.16.0
+  http: ^0.12.0
+  url_launcher: ^5.7.10
+
+flutter:
+  assets:
+    - data/
