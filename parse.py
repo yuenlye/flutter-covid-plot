@@ -3,7 +3,7 @@ import csv
 countries = ["Australia", "Malaysia", "New Zealand"]
 country_data = {}
 
-with open('data/owid-covid-data.csv') as csvfile:
+with open('owid-covid-data.csv') as csvfile:
     rows = csv.reader(csvfile)
 
     for row in rows:
